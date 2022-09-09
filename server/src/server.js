@@ -18,7 +18,7 @@ export function launch(port) {
         case "HELP":
             socket.write(`215 * USER <username>: check if the user exist
             * PASS <password>: authenticate the user with a password
-            * LIST: list the current directory of the server jjj
+            * LIST: list the current directory of the server
             * CWD <directory>: change the current directory of the server
             * RETR <filename>: transfer a copy of the file _FILE_ from the server to the client
             * STOR <filename>: transfer a copy of the file _FILE_ from the client to the server
